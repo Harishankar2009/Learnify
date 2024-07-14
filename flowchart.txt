@@ -1,0 +1,39 @@
+Start
+  |
+  V
+User Interaction
+  /      \
+Voice Input   Text Input
+  \       /
+    V
+Speech Recognition
+    V
+Intent Analysis
+  /   |    \
+Question Essay  Lesson
+  |      |     |
+  V      V     V
+Fetch Data    Generate Essay  Fetch Lessons
+  |      |      |
+Web Scraping  AI Model  Video Analysis
+  |      |      |
+  V      V      V
+Text Response  PDF Creation  Structured Lessons
+  |      |      |
+  V      V      V
+Voice Response  Display PDF  Deliver Lesson
+  |      |      |
+  V      V      V
+  --------------------------------------
+  |  Personalization                    |
+  |  - User Profiles                    |
+  |  - Adaptive Learning                |
+  --------------------------------------
+  |      |
+  V      V
+Save Progress  Update Profile
+  |
+  V
+End
+
+

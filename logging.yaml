@@ -1,0 +1,30 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  detailed:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+  file:
+    class: logging.FileHandler
+    formatter: detailed
+    level: DEBUG
+    filename: 'logs/project.log'
+    mode: 'a'
+
+loggers:
+  root:
+    level: DEBUG
+    handlers: [console, file]
+
+  my_project:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: no

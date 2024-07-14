@@ -1,0 +1,47 @@
+#speech recognition settings
+speech_recognition:
+  language : 'en-US'
+  timeout : 5
+  phrase_time_limit : 10
+
+#text to speech settings
+text_to_speech:
+  language : 'en'
+  rate : 150
+  volume : 1.0
+
+#web scraping settings
+web_scraping:
+ toppr_url: "https://www.toppr.com"
+  byjus_url: "https://www.byjus.com"
+  brainly_url: "https://brainly.in"
+
+# Video analysis settings
+video_analysis:
+  youtube_api_key: "YOUR_YOUTUBE_API_KEY"
+  search_max_results: 10
+
+# AI generation settings
+ai_generation:
+  model_name: "gpt-4"
+  max_tokens: 500
+
+# PDF creation settings
+pdf_creation:
+  default_font: "Helvetica"
+  font_size: 12
+  margin: 1
+
+# User profile settings
+user_profiles:
+  default_learning_rate: 1.0
+
+# Logging settings
+logging:
+  log_file: "logs/project.log"
+  log_level: "INFO"
+
+# Other settings
+other:
+  debug: true
+  
